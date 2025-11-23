@@ -67,7 +67,7 @@ async def main():
     # --- Start Scanner ---
     # Pass the bot instance to the scanner so it can send messages
     scanner = ScannerService(bot)
-    asyncio.create_task(scanner.start())
+    asyncio.create_task(scanner.start_scanning())
 
     # Start Polling
     await dp.start_polling(bot)

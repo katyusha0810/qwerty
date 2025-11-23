@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.gemini/
+bot.zip
+create_zip.py
